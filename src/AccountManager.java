@@ -4,7 +4,7 @@ public class AccountManager {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Map<String, Account> accounts = new HashMap<>();
-        String fileName = "accounts.txt";
+        String fileName = "mayer cheley.txt";
         accounts.put("A1", new Account("A1", "Adnan"));
         accounts.put("B2", new Account("B2", "Jarin", 100000));
         accounts.put("C3", new Account("C3", "Pranto", 56800));
